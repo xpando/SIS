@@ -5,8 +5,8 @@ namespace SIS
 {
     public class Block
     {
-        private readonly object _syncRoot = new Object();
         private long _current;
+
         public ulong Start
         {
             get;
